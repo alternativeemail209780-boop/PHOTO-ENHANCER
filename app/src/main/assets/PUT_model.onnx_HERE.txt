@@ -1,0 +1,3 @@
+Place a 4x super-resolution ONNX model here named exactly: model.onnx
+(NCHW float32 input 0..1, RGB, output 4x size). Recommended: Real-ESRGAN "realesr-general-x4v3"
+(small and fast), exported with the Real-ESRGAN repo's scripts/pytorch2onnx.py.
